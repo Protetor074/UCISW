@@ -1,0 +1,28 @@
+Command line:
+   Z1_Z1_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52068
+
+Mon Oct 16 12:28:39 2023
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 5151.81 Meg
+
+ Total Signals          : 51
+ Total Nets             : 36
+ Total Signal Drivers   : 8
+ Total Blocks           : 12
+ Total Primitive Blocks : 10
+ Total Processes        : 8
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 519
+
+ Total Simulation Time: 0.171875 sec
+
+ Current Memory Usage: 5151.81 Meg
+
+Mon Oct 16 12:43:13 2023
+

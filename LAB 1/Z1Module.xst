@@ -1,0 +1,5 @@
+set -tmpdir "C:/.Xilinx/lab1/xst/projnav.tmp"
+set -xsthdpdir "C:/.Xilinx/lab1/xst"
+elaborate
+-ifn Z1Module.prj
+-ifmt mixed

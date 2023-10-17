@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/.Xilinx/lab1/Z1_Z1_sch_tb_isim_fit.exe" -prj "C:/.Xilinx/lab1/Z1_Z1_sch_tb_fit.prj" "work.Z1_Z1_sch_tb" 

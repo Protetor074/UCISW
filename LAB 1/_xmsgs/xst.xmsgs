@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">C:/.Xilinx/lab1/Z2.vhf</arg>&quot; line <arg fmt="%d" index="2">46</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">Z1Mod</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">C:/.Xilinx/lab1/Z2.vhf</arg>&quot; line <arg fmt="%d" index="2">50</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">HexTo7Seg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">XLXN_2&lt;6&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">HexTo7Seg</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">XLXN_2&lt;5&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">HexTo7Seg</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">XLXN_2&lt;4&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">HexTo7Seg</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">XLXN_2&lt;3&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">HexTo7Seg</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">XLXN_2&lt;2&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">HexTo7Seg</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">XLXN_2&lt;1&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">HexTo7Seg</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">XLXN_2&lt;0&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">HexTo7Seg</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+</messages>
+

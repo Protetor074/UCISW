@@ -1,0 +1,2 @@
+vhdtdtfi -lib work Z1Mod.vhd -prj lab1 -o Z1Mod.spl -module Z1Mod -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xc9500xl Z1Mod.spl C:/.Xilinx/lab1/Z1Mod.sym 

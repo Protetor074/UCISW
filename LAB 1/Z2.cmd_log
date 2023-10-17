@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "C:/.Xilinx/lab1/Z2.xst" -ofn "C:/.Xilinx/lab1/Z2.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc C:/Users/lab/Desktop/ZL-9572.ucf -p xc9572xl-PC44-10 Z2.ngc Z2.ngd  
+xst -intstyle ise -ifn "C:/.Xilinx/lab1/Z2.xst" -ofn "C:/.Xilinx/lab1/Z2.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc C:/Users/lab/Desktop/ZL-9572.ucf -p xc9572xl-PC44-10 Z2.ngc Z2.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc C:/Users/lab/Desktop/ZL-9572.ucf -p xc9572xl-PC44-10 Z2.ngc Z2.ngd  
+xst -intstyle ise -ifn "C:/.Xilinx/lab1/Z2.xst" -ofn "C:/.Xilinx/lab1/Z2.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc C:/Users/lab/Desktop/ZL-9572.ucf -p xc9572xl-PC44-10 Z2.ngc Z2.ngd  
+xst -intstyle ise -ifn "C:/.Xilinx/lab1/Z2.xst" -ofn "C:/.Xilinx/lab1/Z2.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc C:/Users/lab/Desktop/ZL-9572.ucf -p xc9572xl-PC44-10 Z2.ngc Z2.ngd  
