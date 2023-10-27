@@ -7,11 +7,11 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : Z1.vhf
--- /___/   /\     Timestamp : 10/16/2023 12:43:00
+-- /___/   /\     Timestamp : 10/27/2023 21:07:20
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
---Command: sch2hdl -intstyle ise -family xc9500xl -flat -suppress -vhdl C:/.Xilinx/lab1/Z1.vhf -w C:/.Xilinx/lab1/Z1.sch
+--Command: sch2hdl -intstyle ise -family xc9500xl -flat -suppress -vhdl "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 1/Z1.vhf" -w "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 1/Z1.sch"
 --Design Name: Z1
 --Device: xc9500xl
 --Purpose:

@@ -8,9 +8,6 @@
     <netlist>
         <signal name="XLXN_1(3:0)" />
         <signal name="XLXN_2(6:0)" />
-        <signal name="XLXN_3(3:0)" />
-        <signal name="XLXN_5(3:0)" />
-        <signal name="XLXN_7(3:0)" />
         <signal name="XLXN_10(3:0)" />
         <port polarity="Output" name="XLXN_2(6:0)" />
         <port polarity="Input" name="XLXN_10(3:0)" />

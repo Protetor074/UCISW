@@ -75,7 +75,9 @@ wysiwyg                            : NO
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "C:/.Xilinx/lab1/Z2.vhf" in Library work.
+WARNING:HDLParsers:3607 - Unit work/Z2 is now defined in a different file.  It was defined in "C:/.Xilinx/lab1/Z2.vhf", and is now defined in "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 1/Z2.vhf".
+WARNING:HDLParsers:3607 - Unit work/Z2/BEHAVIORAL is now defined in a different file.  It was defined in "C:/.Xilinx/lab1/Z2.vhf", and is now defined in "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 1/Z2.vhf".
+Compiling vhdl file "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 1/Z2.vhf" in Library work.
 Entity <z2> compiled.
 Entity <z2> (Architecture <behavioral>) compiled.
 
@@ -89,8 +91,8 @@ Analyzing hierarchy for entity <Z2> in library <work> (architecture <behavioral>
 *                            HDL Analysis                               *
 =========================================================================
 Analyzing Entity <Z2> in library <work> (Architecture <behavioral>).
-WARNING:Xst:2211 - "C:/.Xilinx/lab1/Z2.vhf" line 46: Instantiating black box module <Z1Mod>.
-WARNING:Xst:2211 - "C:/.Xilinx/lab1/Z2.vhf" line 50: Instantiating black box module <HexTo7Seg>.
+WARNING:Xst:2211 - "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 1/Z2.vhf" line 46: Instantiating black box module <Z1Mod>.
+WARNING:Xst:2211 - "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 1/Z2.vhf" line 50: Instantiating black box module <HexTo7Seg>.
 Entity <Z2> analyzed. Unit <Z2> generated.
 
 
@@ -101,7 +103,7 @@ Entity <Z2> analyzed. Unit <Z2> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <Z2>.
-    Related source file is "C:/.Xilinx/lab1/Z2.vhf".
+    Related source file is "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 1/Z2.vhf".
 Unit <Z2> synthesized.
 
 
@@ -174,14 +176,14 @@ Cell Usage :
 =========================================================================
 
 
-Total REAL time to Xst completion: 3.00 secs
-Total CPU time to Xst completion: 3.02 secs
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 2.33 secs
  
 --> 
 
-Total memory usage is 4499556 kilobytes
+Total memory usage is 4499404 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    9 (   0 filtered)
+Number of warnings :   11 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

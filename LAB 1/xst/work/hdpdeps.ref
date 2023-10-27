@@ -1,4 +1,4 @@
-V3 17
+V3 18
 FL C:/.Xilinx/lab1/Z1.vhf 2023/10/16.12:43:00 P.20131013
 EN work/Z1 1697453944 FL C:/.Xilinx/lab1/Z1.vhf PB ieee/std_logic_1164 1381692176 \
       PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
@@ -10,7 +10,11 @@ EN work/Z1Module 1697455877 FL C:/.Xilinx/lab1/Z1Module.vhd PB ieee/std_logic_11
 AR work/Z1Module/Behavioral 1697455878 \
       FL C:/.Xilinx/lab1/Z1Module.vhd EN work/Z1Module 1697455877
 FL C:/.Xilinx/lab1/Z2.vhf 2023/10/16.13:53:14 P.20131013
-EN work/Z2 1697457196 FL C:/.Xilinx/lab1/Z2.vhf PB ieee/std_logic_1164 1381692176 \
-      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/Z2/BEHAVIORAL 1697457197 \
-      FL C:/.Xilinx/lab1/Z2.vhf EN work/Z2 1697457196 CP Z1Mod CP HexTo7Seg
+FL "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 1/Z2.vhf" 2023/10/27.21:04:55 P.20131013
+EN work/Z2 1698433497 \
+      FL "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 1/Z2.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Z2/BEHAVIORAL 1698433498 \
+      FL "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 1/Z2.vhf" EN work/Z2 1698433497 \
+      CP Z1Mod CP HexTo7Seg

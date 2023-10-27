@@ -4,14 +4,14 @@ Command line:
      -sdfmax  /UUT/=netgen/fit/Z1_timesim.sdf
      -sdfroot  /UUT
      -simrunnum  0
-     -socket  52149
+     -socket  60757
 
-Mon Oct 16 13:08:12 2023
+Fri Oct 27 21:06:01 2023
 
 
- Elaboration Time: 0.078125 sec
+ Elaboration Time: 0.03125 sec
 
- Current Memory Usage: 5155.73 Meg
+ Current Memory Usage: 5151.33 Meg
 
  Total Signals          : 303
  Total Nets             : 180
@@ -21,10 +21,11 @@ Mon Oct 16 13:08:12 2023
  Total Processes        : 128
  Total Traceable Variables  : 436
  Total Scalar Nets and Variables : 5612
+Total Line Count : 660
 
- Total Simulation Time: 0.09375 sec
+ Total Simulation Time: 0.03125 sec
 
- Current Memory Usage: 5155.73 Meg
+ Current Memory Usage: 4994.04 Meg
 
-Mon Oct 16 13:13:51 2023
+Fri Oct 27 21:07:10 2023
 

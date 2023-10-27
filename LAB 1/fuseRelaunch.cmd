@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/.Xilinx/lab1/Z1_Z1_sch_tb_isim_fit.exe" -prj "C:/.Xilinx/lab1/Z1_Z1_sch_tb_fit.prj" "work.Z1_Z1_sch_tb" 
+-intstyle "ise" -incremental -o "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 1/Z1_Z1_sch_tb_isim_beh.exe" -prj "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 1/Z1_Z1_sch_tb_beh.prj" "work.Z1_Z1_sch_tb" 

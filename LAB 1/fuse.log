@@ -1,33 +1,26 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/.Xilinx/lab1/Z1_Z1_sch_tb_isim_fit.exe -prj C:/.Xilinx/lab1/Z1_Z1_sch_tb_fit.prj work.Z1_Z1_sch_tb 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 1/Z1_Z1_sch_tb_isim_beh.exe -prj C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 1/Z1_Z1_sch_tb_beh.prj work.Z1_Z1_sch_tb 
 ISim P.20131013 (signature 0x7708f090)
-Number of CPUs detected in this system: 12
-Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
-Parsing VHDL file "C:/.Xilinx/lab1/netgen/fit/Z1_timesim.vhd" into library work
-Parsing VHDL file "C:/.Xilinx/lab1/testbramki.vhd" into library work
+Parsing VHDL file "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 1/Z1.vhf" into library work
+Parsing VHDL file "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 1/testbramki.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package numeric_std
 Compiling package vcomponents
-Compiling package textio
-Compiling package vital_timing
-Compiling package vcomponents
-Compiling package vital_primitives
-Compiling package vpackage
-Compiling architecture x_buf_v of entity X_BUF [\X_BUF(true,true,"UNPLACED",(0,0...]
-Compiling architecture x_xor2_v of entity X_XOR2 [\X_XOR2(true,true,"UNPLACED",(0,...]
-Compiling architecture x_and2_v of entity X_AND2 [\X_AND2(true,true,"UNPLACED",(0,...]
-Compiling architecture x_or2_v of entity X_OR2 [\X_OR2(true,true,"UNPLACED",(0,0...]
-Compiling architecture x_zero_v of entity X_ZERO [\X_ZERO("UNPLACED")(1,8)\]
-Compiling architecture x_inv_v of entity X_INV [\X_INV(true,true,"UNPLACED",(0,0...]
-Compiling architecture x_roc_v of entity X_ROC [\X_ROC("UNPLACED",100000,"*")(1,...]
-Compiling architecture structure of entity Z1 [z1_default]
+Compiling architecture buf_v of entity BUF [buf_default]
+Compiling architecture xor2_v of entity XOR2 [xor2_default]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture or2_v of entity OR2 [or2_default]
+Compiling architecture behavioral of entity Z1 [z1_default]
 Compiling architecture behavioral of entity z1_z1_sch_tb
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
-Compiled 26 VHDL Units
-Built simulation executable C:/.Xilinx/lab1/Z1_Z1_sch_tb_isim_fit.exe
-Fuse Memory Usage: 92956 KB
-Fuse CPU Usage: 750 ms
+Compiled 17 VHDL Units
+Built simulation executable C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 1/Z1_Z1_sch_tb_isim_beh.exe
+Fuse Memory Usage: 50876 KB
+Fuse CPU Usage: 374 ms

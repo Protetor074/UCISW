@@ -7,3 +7,5 @@ xst -intstyle ise -ifn "C:/.Xilinx/lab1/Z2.xst" -ofn "C:/.Xilinx/lab1/Z2.syr"
 ngdbuild -intstyle ise -dd _ngo -uc C:/Users/lab/Desktop/ZL-9572.ucf -p xc9572xl-PC44-10 Z2.ngc Z2.ngd  
 xst -intstyle ise -ifn "C:/.Xilinx/lab1/Z2.xst" -ofn "C:/.Xilinx/lab1/Z2.syr" 
 ngdbuild -intstyle ise -dd _ngo -uc C:/Users/lab/Desktop/ZL-9572.ucf -p xc9572xl-PC44-10 Z2.ngc Z2.ngd  
+xst -intstyle ise -ifn "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 1/Z2.xst" -ofn "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 1/Z2.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/ZL-9572.ucf -p xc9572xl-PC44-10 "Z2.ngc" Z2.ngd  
