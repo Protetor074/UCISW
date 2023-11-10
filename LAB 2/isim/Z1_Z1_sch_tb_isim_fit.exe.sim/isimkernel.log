@@ -1,0 +1,12 @@
+Command line:
+   Z1_Z1_sch_tb_isim_fit.exe
+     -simmode  gui
+     -sdfmax  /UUT/=netgen/fit/Z1_timesim.sdf
+     -sdfroot  /UUT
+     -simrunnum  1
+     -socket  60206
+
+Fri Nov 10 12:51:44 2023
+
+
+ Elaboration Time: 0.046875 sec

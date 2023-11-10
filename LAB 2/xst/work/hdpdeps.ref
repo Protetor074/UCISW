@@ -1,0 +1,28 @@
+V3 23
+FL C:/lab2/lab2/Z1.vhf 2023/10/30.13:15:22 P.20131013
+FL C:/lab2/lab2/Z2.vhf 2023/10/30.13:44:31 P.20131013
+FL "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 2/Z1.vhf" 2023/11/10.12:28:56 P.20131013
+EN work/Z1 1699617039 \
+      FL "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 2/Z1.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Z1/BEHAVIORAL 1699617040 \
+      FL "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 2/Z1.vhf" EN work/Z1 1699617039 \
+      CP FDCE CP OR5 CP AND2B1 CP AND3 CP AND3B2 CP AND4B2 CP AND3B1 CP AND3B3 CP AND4B1 \
+      CP OR4
+FL "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 2/Z2.vhf" 2023/11/10.12:28:56 P.20131013
+EN work/Z1_MUSER_Z2 1699617035 \
+      FL "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 2/Z2.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Z1_MUSER_Z2/BEHAVIORAL 1699617036 \
+      FL "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 2/Z2.vhf" \
+      EN work/Z1_MUSER_Z2 1699617035 CP FDCE CP OR5 CP AND2B1 CP AND3 CP AND3B2 \
+      CP AND4B2 CP AND3B1 CP AND3B3 CP AND4B1 CP OR4
+EN work/Z2 1699617037 \
+      FL "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 2/Z2.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Z2/BEHAVIORAL 1699617038 \
+      FL "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 2/Z2.vhf" EN work/Z2 1699617037 \
+      CP Z1_MUSER_Z2 CP HexTo7Seg

@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "C:/lab2/lab2/Z1.xst" -ofn "C:/lab2/lab2/Z1.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc C:/Users/lab/Desktop/ZL-9572.ucf -p xc9572xl-PC44-10 Z1.ngc Z1.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Z1.ngd 
+XSLTProcess Z1_build.xml 
+tsim -intstyle ise Z1 Z1.nga 
+netgen -intstyle ise -rpw 100 -ar Structure -tm Z1 -w -dir netgen/fit -ofmt vhdl -sim Z1.nga Z1_timesim.vhd 
+sch2sym -intstyle ise -family xc9500xl -refsym Z1 C:/lab2/lab2/Z1.sch C:/lab2/lab2/Z1.sym 
+XSLTProcess Z1_build.xml 

@@ -1,0 +1,32 @@
+xst -intstyle ise -ifn "C:/lab2/lab2/Z2.xst" -ofn "C:/lab2/lab2/Z2.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc C:/Users/lab/Desktop/ZL-9572.ucf -p xc9572xl-PC44-10 Z2.ngc Z2.ngd  
+xst -intstyle ise -ifn "C:/lab2/lab2/Z2.xst" -ofn "C:/lab2/lab2/Z2.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc C:/Users/lab/Desktop/ZL-9572.ucf -p xc9572xl-PC44-10 Z2.ngc Z2.ngd  
+xst -intstyle ise -ifn "C:/lab2/lab2/Z2.xst" -ofn "C:/lab2/lab2/Z2.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc C:/Users/lab/Desktop/ZL-9572.ucf -p xc9572xl-PC44-10 Z2.ngc Z2.ngd  
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-10 Z2.ngc Z2.ngd  
+xst -intstyle ise -ifn "C:/lab2/lab2/Z2.xst" -ofn "C:/lab2/lab2/Z2.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-10 Z2.ngc Z2.ngd  
+xst -intstyle ise -ifn "C:/lab2/lab2/Z2.xst" -ofn "C:/lab2/lab2/Z2.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-10 Z2.ngc Z2.ngd  
+xst -intstyle ise -ifn "C:/lab2/lab2/Z2.xst" -ofn "C:/lab2/lab2/Z2.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-10 Z2.ngc Z2.ngd  
+xst -intstyle ise -ifn "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 2/Z2.xst" -ofn "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 2/Z2.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-10 "Z2.ngc" Z2.ngd  
+xst -intstyle ise -ifn "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 2/Z2.xst" -ofn "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 2/Z2.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-10 "Z2.ngc" Z2.ngd  
+xst -intstyle ise -ifn "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 2/Z2.xst" -ofn "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 2/Z2.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-10 "Z2.ngc" Z2.ngd  
+xst -intstyle ise -ifn "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 2/Z2.xst" -ofn "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 2/Z2.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-10 "Z2.ngc" Z2.ngd  
+xst -intstyle ise -ifn "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 2/Z2.xst" -ofn "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 2/Z2.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-10 "Z2.ngc" Z2.ngd  
+xst -intstyle ise -ifn "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 2/Z2.xst" -ofn "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 2/Z2.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-10 "Z2.ngc" Z2.ngd  
+xst -intstyle ise -ifn "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 2/Z2.xst" -ofn "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 2/Z2.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-10 "Z2.ngc" Z2.ngd  
+xst -intstyle ise -ifn "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 2/Z2.xst" -ofn "C:/Users/alfag/OneDrive/Pulpit/Projekty/UCISW/LAB 2/Z2.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-10 "Z2.ngc" Z2.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Z2.ngd 
+tsim -intstyle ise Z2 Z2.nga 
+netgen -intstyle ise -rpw 100 -ar Structure -tm Z2 -w -dir netgen/fit -ofmt vhdl -sim Z2.nga Z2_timesim.vhd 

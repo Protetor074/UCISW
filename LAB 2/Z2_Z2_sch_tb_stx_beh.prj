@@ -1,0 +1,3 @@
+vhdl isim_temp "Z1.vhf"
+vhdl isim_temp "Z2.vhf"
+vhdl isim_temp "testbench2.vhd"

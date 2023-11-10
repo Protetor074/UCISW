@@ -1,0 +1,67 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** Mapped Logic **********
+</td></tr><tr><td>
+</td></tr><tr><td>
+Displ7S(0) <= ((NOT Hex(1) AND Hex(0) AND NOT Hex(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT Hex(1) AND NOT Hex(0) AND Hex(2)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+Displ7S(1) <= ((Hex(1) AND NOT Hex(0) AND Hex(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT Hex(1) AND Hex(0) AND Hex(2)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+Displ7S(2) <= (Hex(1) AND NOT Hex(0) AND NOT Hex(2));
+</td></tr><tr><td>
+</td></tr><tr><td>
+Displ7S(3) <= ((Hex(1) AND Hex(0) AND Hex(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT Hex(1) AND Hex(0) AND NOT Hex(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT Hex(1) AND NOT Hex(0) AND Hex(2)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+Displ7S(4) <= ((Hex(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT Hex(1) AND Hex(2)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+Displ7S(5) <= ((Hex(1) AND NOT Hex(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Hex(0) AND NOT Hex(2)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+Displ7S(6) <= ((NOT Hex(1) AND NOT Hex(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Hex(1) AND Hex(0) AND Hex(2)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+FTCPE_Hex0: FTCPE port map (Hex(0),Hex_T(0),CLK,CLR,'0',CE);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hex_T(0) <= ((Hex(1) AND NOT Hex(2) AND DIR)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT Hex(1) AND Hex(0) AND NOT Hex(2) AND NOT DIR)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT Hex(1) AND NOT Hex(0) AND Hex(2) AND NOT DIR));
+</td></tr><tr><td>
+FDCPE_Hex1: FDCPE port map (Hex(1),Hex_D(1),CLK,CLR,'0',CE);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hex_D(1) <= ((NOT Hex(1) AND Hex(0) AND NOT DIR)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT Hex(1) AND NOT Hex(0) AND DIR)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Hex(0) AND Hex(2) AND DIR)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT Hex(0) AND Hex(2) AND NOT DIR));
+</td></tr><tr><td>
+FDCPE_Hex2: FDCPE port map (Hex(2),Hex_D(2),CLK,CLR,'0',CE);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hex_D(2) <= ((NOT Hex(1) AND Hex(0) AND Hex(2) AND NOT DIR)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Hex(1) AND NOT Hex(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Hex(1) AND Hex(2) AND DIR)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Hex(1) AND NOT Hex(2) AND NOT DIR)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT Hex(0) AND NOT Hex(2) AND DIR));
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>
